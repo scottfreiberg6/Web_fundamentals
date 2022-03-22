@@ -1,0 +1,27 @@
+.search, .plus, .account {
+    display: block;
+    margin-bottom: 10px;
+    height: 40px;
+}
+.search {
+    background-color: #ffff;
+    color:#7dc8c8;
+    font-weight: 900;
+    width: 100px;
+    border: 2px solid #7dc8c8;
+    border-radius: 20px;
+}
+.plus{
+    width:40px;
+    background-color: #00d1b2 ;
+    color:#ffff;
+    border-radius: 50%;
+
+}
+.account{
+    width: 80px;
+    background-color: #2b78e4b2;
+    color: #fff;
+    border: 2px solid #0000;
+    box-shadow: 3px 3px black;
+}
