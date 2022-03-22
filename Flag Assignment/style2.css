@@ -1,0 +1,26 @@
+* {
+    margin:0;
+    padding:0;
+}
+.block1 {
+    background-color: green;
+    width:500px;
+    height:800px;
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+.block2 {
+    background-color: white;
+    width:500px;
+    height:800px;
+    margin-top: -800px;
+    margin-left: 490px;
+
+}
+.block3 {
+    background-color: red;
+    width: 500px;
+    height:800px;
+    margin-top: -800px;
+    margin-left: 990px;
+}

@@ -1,0 +1,16 @@
+* {
+    margin:0;
+    padding:0;
+}
+.Block1 {
+    background-color:blue;
+    display:block;
+    height:300px;
+    margin: 0;
+}
+.Block2 {
+background-color: yellow;
+display: block;
+height:300px;
+margin:0;
+}
