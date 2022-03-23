@@ -1,0 +1,39 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: none;
+    font-family: sans-serif
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.nav {
+display:flex;
+justify-content: space-between;
+color: green;
+background-color: grey;
+align-items: center;
+min-height: 50px;
+padding:10px;
+}
+
+.nav-title {
+color: green;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+.nav-links >li {
+    list-style: none;
+    margin:10px;
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    width: 100px;
+    background-color: #2b78e4b2;
+    color: #fff;
+    border:3px  solid black;
+}
