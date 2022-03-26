@@ -1,0 +1,116 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.page_container {
+    display: flex;
+    justify-content: space-between;
+}
+.left_side{
+    flex:2;
+    margin-left:  20px;
+    margin-right:20px
+}
+.right_side {
+    flex:1;
+    margin-right:20px;
+}
+.user{
+margin-top:20px;
+padding:10px
+}
+.user_header{
+    background-color: lightblue;
+    width:100%;
+}
+.card_body {
+background-color: beige;
+width:100%;
+height:300px;
+}
+.map,.gear{
+    height: 25px;
+    padding:2px;
+}
+.user {
+    display: absolute;
+    height: 75px;
+    bottom:200px;
+}
+.nav {
+    display:flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    align-items: center;
+    min-height: 50px;
+    padding:10px;
+    } 
+    .nav-title {
+    color: white;
+    }
+    .nav-links {
+        display: flex;
+        justify-content: space-evenly;
+        text-decoration: none;
+        color: white;
+    }
+    .nav-links >li {
+        list-style: none;
+        margin:10px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .btn{
+        width: 100px;
+        background-color: #2b78e4b2;
+        color: #fff;
+        border:3px  solid white;
+    }
+    .gear{
+        color:lightblue
+    }
+    .education_header{
+        Background-color:black;
+        color:white;
+        text-align: center;
+        padding:20px;
+        font-size: larger;
+
+    }
+    .education{
+        margin-top: 10px;
+    }
+    .education_body {
+        border:2px solid grey;
+    /* margin-top:20px; */
+    padding-top:10px;
+    background-color: beige;
+    }
+.title, .connect {
+    background-color: black;
+    color:white;
+    text-align: center;
+    margin-top: 2px;
+    padding-top:20px;
+    
+}
+.accepts, .deny {
+    height: 25px;
+    vertical-align: middle;
+}
+.row-1{
+    display:flex;
+    justify-content:space-around;
+    border: 2px solid grey;
+}
+.todd,.phil, .adrien, .anne, .phil, .alayne, .arry{
+    height: 40px;
+}
+.dates{
+    color: grey
+}
+

@@ -1,0 +1,9 @@
+.row1 {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+}
+img {
+    height:75px;
+}
