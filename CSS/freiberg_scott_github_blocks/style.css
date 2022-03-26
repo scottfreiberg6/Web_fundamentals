@@ -1,9 +1,24 @@
-.row1 {
-    background-color: blue;
+.row1{
+    background-color: lightblue;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     height: 75px;
+    margin-bottom: 10px;
 }
-img {
+.row2{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
     height:75px;
+}
+image {
+    height:100px;
+    width: 100px;
+    display: inline-block;
+}
+.row3 {
+background-color: white;
+display:flex;
+justify-content: space-evenly;
+height: 75px;
 }
