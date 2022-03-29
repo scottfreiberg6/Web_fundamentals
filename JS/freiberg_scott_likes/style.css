@@ -43,3 +43,12 @@ img{
 .avatar{
     
 }
+.feed {
+    text-align: center;
+}
+
+button {
+    background-color:yellow ;
+    border: 2px solid Black;
+    
+}
