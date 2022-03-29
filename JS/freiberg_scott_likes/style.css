@@ -1,0 +1,45 @@
+.nav_bar{
+    background-color: black;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.flex_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.flex_likes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+.left_side {
+    flex:1;
+    /* background-color: red; */
+}
+.right_side {
+    flex:2;
+    /* background-color: aqua; */
+    width: 300px;
+    height: 200px;
+}
+img{
+    height:50px;
+}
+.avatar{
+    border: 2px solid black
+}
+.neil, .nichole {
+    border: 2px solid black 
+}
+.avatar{
+    
+}
