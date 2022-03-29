@@ -43,15 +43,6 @@ button{
         border:  solid yellow;
         border-radius: 20px;
     }
-    .button2{
-    
-        background-color: green;
-        color:white;
-        font-weight:900 ;
-        width: 80px;
-        border:  solid green;
-        border-radius: 20px;
-    }
 .def{
     position:relative;
     top:-55px;
