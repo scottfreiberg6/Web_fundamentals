@@ -1,0 +1,59 @@
+* {
+    margin:0 auto;
+    padding:0;
+    box-sizing: border-box;
+}
+.login {
+    background-color: #ffff;
+    color:#7dc8c8;
+    font-weight:900 ;
+    width: 80px;
+    border:  solid #7dc8c8;
+    border-radius: 20px;
+}
+.flex_container {
+background-color:lightgray;
+display:flex;
+align-items: center;
+justify-content: space-between;
+width:70%;
+}
+.nav_bar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    
+}
+.ninja1, .ninja2,.def {
+    border: 2px solid black;
+}
+.left_side {
+    flex:2;
+}
+.right_side {
+    flex:1;
+}
+button{
+    
+        background-color: yellow;
+        color:green;
+        font-weight:900 ;
+        width: 80px;
+        border:  solid yellow;
+        border-radius: 20px;
+    }
+    .button2{
+    
+        background-color: green;
+        color:white;
+        font-weight:900 ;
+        width: 80px;
+        border:  solid green;
+        border-radius: 20px;
+    }
+.def{
+    position:relative;
+    top:-55px;
+    left:-5px;
+}
