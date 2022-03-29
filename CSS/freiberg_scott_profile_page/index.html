@@ -31,15 +31,14 @@
                     <h3 class="text">
                         <img src="./icons/map-marker.png" alt="map" class="map">
                         Seattle
-                        <p class="text">
-                            Devoloper | Engineer | Problem Solver<br>
-                            Master of shadows and the internet</p>
-                        <a class="gear" href="#">
-                            <img src="./icons/gear.png" alt="gear" class="gear">
-                            edit profile
-                        </a>
-                        </p>
                     </h3>
+                        <p class="text">
+                            Devoloper | Engineer | Problem Solver
+                            Master of shadows and the internet</p>
+                        <p onclick="edit()"><a class="gear" href="#">
+                                <img src="./icons/gear.png" alt="gear" class="gear">
+                                edit profile</a></p>
+                    
                 </div>
 
             </div>
@@ -59,22 +58,24 @@
                 <div class="title">
                     <h3>2 Connection Request</h3>
                 </div>
-                <div class="row-1">
+                <div class="row-1" id="request-1">
                     <img src="./images/todd-s.jpg" alt="todd" class="todd">
                     <p>Todd E</p>
 
                     <div class="accepts">
-                        <img src="./icons-2/accept-circle.png" alt="accepts" class="accepts">
-                        <img src="./icons-2/close-circle.png" alt+\="deny" class="deny">
+                        <img src="./icons-2/accept-circle.png" alt="accepts" class="accepts"
+                            onclick='accept("#request-1")'>
+                        <img src="./icons-2/close-circle.png" alt="deny" class="deny" onclick='ignore("#request-1")'>
                     </div>
                 </div>
-                <div class="row-1">
+                <div class="row-1" id="request-2">
                     <img src="./images/phil-s.jpg" alt="phil" class="phil">
                     <p>Phil K</p>
 
                     <div class="accepts">
-                        <img src="./icons-2/accept-circle.png" alt="accepts" class="accepts">
-                        <img src="./icons-2/close-circle.png" alt+\="deny" class="deny">
+                        <img src="./icons-2/accept-circle.png" alt="accepts" class="accepts"
+                            onclick='accept("#request-2")'>
+                        <img src="./icons-2/close-circle.png" alt="deny" class="deny" onclick='ignore("#request-2")'>
                     </div>
                 </div>
             </div>
@@ -102,11 +103,11 @@
                     <p>Arry T</p>
                 </div>
                 <div class="blackText row-1">
-                    <a href="#">show more</a>
+                    <a href="#">View more</a>
                 </div>
             </div>
         </div>
     </div>
+    <script src="./script.js"></script>
 </body>
-
 </html>
