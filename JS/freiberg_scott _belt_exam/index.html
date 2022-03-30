@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belt Exam Review</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container flex">
+            <h1>Gaming<span>Dojo</span></h1>
+            <div class="header_right flex">
+                <select>
+                    <option>Euro €</option>
+                </select>
+                <img src="./Unknown.png" alt="shopping cart">
+                <p id="cart_Count">0</p>
+                <img src="./magnifying-glass-zoom-find-small-things-magnifier-magnify-finding-looking-searching-icon-167242410.jpeg"
+                    alt="magnified glss">
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <div class="highlights">
+            <h2>Hightlights</h2>
+            <div class="carousel flex">
+                <img onclick="prevImage()" src="./Unknown1.png" alt="left arrow">
+                <img id="banner-image" class="banner" src="./ad" alt="image">
+                <img onclick="nextImage()" src="./Unknown2.png" alt="right arrow">
+
+            </div>
+            <div class="markers flex">
+                <div class="marker"></div>
+                <div class="marker active"></div>
+                <div class="marker"></div>
+                <div class="marker"></div>
+            </div>
+        </div>
+        <div class="features flex">
+            <div class="feature">
+                <img class="feature-img" src="./ad" alt="cafe niko">
+                <div class="feature-copy">
+                    <h2 class="">cafe neko gold:edition</h2>
+                    <div class="justify-start mb">
+                        <img class="os-icon" src="./windows.jpeg" alt="windows logo">
+                        <img class="os-icon" src="./apple-1.jpeg" alt="apple logo">
+                    </div>
+                    <div class="flex">
+                        <button class="btn bg-purple">-20%</button>
+                        <div class="prices">
+                            <p class="old-price">€14.98</p>
+                            <p class="sale-price">€10.49</p>
+                        </div>
+                        <button onclick="addItem()" class="btn bg-green">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="feature">
+                <img class="feature-img" src="./ad" alt="cafe niko">
+                <div class="feature-copy">
+                    <h2 class="">cafe neko gold:edition</h2>
+                    <div class="justify-start mb">
+                        <img class="os-icon" src="./windows.jpeg" alt="windows logo">
+                        <img class="os-icon" src="./apple-1.jpeg" alt="apple logo">
+                    </div>
+                    <div class="flex">
+                        <button class="btn bg-purple">-20%</button>
+                        <div class="prices">
+                            <p class="old-price">€14.98</p>
+                            <p class="sale-price">€10.49</p>
+                        </div>
+                        <button onclick="addItem()" class="btn bg-green">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="feature">
+                <img class="feature-img" src="./ad" alt="cafe niko">
+                <div class="feature-copy">
+                    <h2 class="">cafe neko gold:edition</h2>
+                    <div class="justify-start mb">
+                        <img class="os-icon" src="./windows.jpeg" alt="windows logo">
+                        <img class="os-icon" src="./apple-1.jpeg" alt="apple logo">
+                        <img onclick="alert('This game is supported on Linux')" class="os-icon" src="./Unknown4.jpeg" alt="linux logo">
+
+                    </div>
+                    <div class="flex">
+                        <button class="btn bg-purple">-20%</button>
+                        <div class="prices">
+                            <p class="old-price">€14.98</p>
+                            <p class="sale-price">€10.49</p>
+                        </div>
+                        <button onclick="addItem()" class="btn bg-green">Buy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>

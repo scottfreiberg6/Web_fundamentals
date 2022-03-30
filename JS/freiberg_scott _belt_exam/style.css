@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans', cursive;
+}
+body{
+    background-color: #eeeeee;
+}
+/* utility classes start */
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+.justify-start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .5rem;
+    
+}
+
+/* utility classes end */
+/* header classes start */
+header {
+    background-color: black;
+    padding:.5rem 0;
+}
+header{
+    color: white
+}
+header h1 span {
+    color: #9828ff
+}
+header img{
+    width: 50px;
+}
+/* header classes end */
+.container {
+    /* background-color: yellow; */
+    min-height: 50px;
+    width:1000px;
+    margin: 0 auto;
+}
+.highlights {
+    /* background-color: lavender; */
+    margin-top:1.5rem;
+    min-height: 200px;
+
+}
+.banner{
+    width: 800px;
+}
+.carousel{
+    margin:1.5rem 0;
+}
+.marker {
+    background-color: #999999;
+    height:3px;
+    flex:1;
+}
+.markers{
+    width: 500px;
+    margin: 0 auto;
+}
+.active {
+    background-color: #9828ff
+    
+}
+.features {
+    /* background-color: orange; */
+    min-height:200px;
+    background-color: white;
+    margin-top: 1.5rem;
+}
+.feature {
+    /* background-color: white; */
+    flex:1;
+}
+.feature-copy {
+    background-color: white;
+    padding: 0.5rem;
+}
+.feature-img{
+    width: 100%;
+}
+.os-icon {
+width: 40px;
+}
+.old-price{
+    color:darkgrey;
+    text-decoration: line-through;
+}
+.sale-price{
+    font-size: x-large;
+}
+.prices{
+    text-align: right;
+}
+.btn{
+    padding:.5rem 1em;
+color:white;
+border:0;
+font-size:large;
+
+}
+.bg-purple {
+    background-color: #9828ff;
+}
+.bg-green{
+    background-color:  #69a84f;
+}
